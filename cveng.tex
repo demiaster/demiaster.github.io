@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Marta \textsc{Feriani}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place of Birth:} & Brescia (IT) \\
+\textsc{Address:} & Via dell'Olmo 2, Castel Mella, BS (IT) \\
+\textsc{Phone:} & +44 746 004 2326 \\& +39 333 102 2207\\
+\textsc{email:} & \href{mailto:marta.celeste.feriani@gmail.com}{marta.celeste.feriani@gmail.com}\\
+\textsc{github:} & \href{https://github.com/demiaster}{demiaster}\\
+\textsc{linkedin:} & \href{https://www.linkedin.com/in/marta-feriani-b87a0ab7}{https://www.linkedin.com/in/marta-feriani-b87a0ab7}
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}
+\textsc{Current} & Pursuing Degree in \textsc{Computer Animation and Visual Effects}, \\
+& \textbf{Bournemouth University}, NCCA\\
+&\\
+
+%------------------------------------------------
+
+\textsc{July} 2016& Undergraduate Degree in \textsc{}\textsc{Computer Engineering}, \\
+& \normalsize\textbf{Politecnico di Milano}, Milano\\
+& Thesis Project: Multiplatform Distributed Game Development\\
+& \small Advisor: Pierluigi \textsc{San Pietro}\\
+&\\
+
+
+\textsc{July} 2013& \textbf{Liceo Scientifico ``Niccolò Copernico''}, Brescia
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	Conferenze
+%----------------------------------------------------------------------------------------
+
+\section{Speaker}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & Speaker for \href{https://poul.org}{\textsc{POuL}}, Milano \\
+\textsc{ 2016} & \emph{Advanced Linux Courses}\\
+& \footnotesize{GPG: Gnu Privacy Guard}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & C1 (IELTS), October 2015\\
+
+\textsc{Deutsch:} & B1 (Goethe-Zertifikat), March 2012\\
+
+\textsc{Italian:} & Mothertongue\\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Advanced Skills: & \textsc{Java language}, \textsc{C}, \textsc{Basic Unix Tools}\\
+
+Base Skills: & \setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular} \textsc{Relational Databases}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Free Software, Visual Effects.
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
